@@ -1,28 +1,23 @@
-# Sales Data Cleaning Project
+📝 Project Overview
 
-## Overview
-This project demonstrates the process of cleaning and organizing messy sales data. The task involves handling missing values, standardizing formats, and removing duplicates to prepare the dataset for analysis.
+This is Day 1 of my 100-Day Data Analyst Challenge, where I cleaned and organized a raw sales dataset. Data cleaning is a crucial step in ensuring accuracy and reliability for analysis.
 
-### Files:
-1. **dirty_sales_data.xlsx**: Original messy dataset.
-2. **cleaned_sales_data.xlsx**: Cleaned dataset after data manipulation.
+🔍 Key Tasks Performed
 
-### Data Cleaning Steps:
-1. **Handling Missing Values**: 
-   - Filled missing quantity with median.
-   - Filled missing price with average price.
-   - Filled missing dates with placeholder values.
-   
-2. **Removing Duplicates**:
-   - Removed duplicate rows to ensure data consistency.
+Removed Unnecessary Columns – Eliminated irrelevant data for a more streamlined dataset.
 
-3. **Standardizing Formats**:
-   - Standardized date formats, product names, and regions.
+Fixed Column Names – Ensured proper formatting and consistency.
 
-### Tools Used:
-- Excel functions like `IFERROR`, `VLOOKUP`, `TRIM`, `COUNTIF`, etc.
+Standardized Text Formatting – Converted client names to lowercase for uniformity.
 
-## How to Use
-1. Download the files from the repository.
-2. Open the **cleaned** and **messy** datasets in Excel to view the cleaning process.
+Handled Missing Values – Identified missing payments and revenue values.
 
+Added a 'Region' Column – Introduced regional data for better categorization.
+
+Removed Empty Rows & Duplicates – Improved data quality by removing inconsistencies.
+
+📂 Files Included
+
+Raw Data: Day1_Clean & Organize Sales Data project.xlsx (Sheet: 'raw')
+
+Cleaned Data: Day1_Clean & Organize Sales Data project.xlsx (Sheet: 'clean')
